@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '@Wednesday#0489  i love you') {
-    	message.reply('i love you');
+    	message.reply('i love you too');
   	}
 });
 
