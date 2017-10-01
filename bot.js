@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'i love you') {
-    	message.reply('i love you Shin');
+    if (message.content === '@Wednesday i love you') {
+    	message.reply('i love you');
   	}
 });
 
